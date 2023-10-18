@@ -16,11 +16,11 @@
 from decouple import config
 
 try:
-    APP_ID = config("APP_ID", "27744380", cast=int)
-    API_HASH = config("API_HASH", "08f3fd61ccd1aa4aa6ccdb716fb68fed")
-    BOT_TOKEN = config("BOT_TOKEN", "6450854583:AAFqTTP_VRQV8H-W0usPGEg3bCetN9tGNP4")
+    APP_ID = config("APP_ID", cast=int)
+    API_HASH = config("API_HASH")
+    BOT_TOKEN = config("BOT_TOKEN")
     DEV = 5467555331
-    OWNER = config("OWNER", "6065594762")
+    OWNER = config("OWNER")
     ffmpegcode = ["-preset faster -c:v libx265 -s 854x480 -x265-params 'bframes=8:psy-rd=1:ref=3:aq-mode=3:aq-strength=0.8:deblock=1,1' -metadata 'title=Encoded By AnshuSharma (https://github.com/Anshusharma75/TG-videoCompress)' -pix_fmt yuv420p -crf 30 -c:a libopus -b:a 32k -c:s copy -map 0 -ac 2 -ab 32k -vbr 2 -level 3.1 -threads 1"]
     THUMB = config("THUMBNAIL")
 except Exception as e:
