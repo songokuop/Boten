@@ -10,22 +10,22 @@
         "APP_ID": {
             "description": "You api id get it from my.telegram.org or @apiScrapperRoBot",
             "value": "",
-            "required": false
+            "required": true
         },
         "API_HASH": {
             "description": "You api hash get it from my.telegram.org or @apiScrapperRoBot.",
             "value": "",
-            "required": false
+            "required": true
         },
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather and enter it's api token",
             "value": "",
-            "required": false
+            "required": true
         },
         "OWNER": {
             "description": "Put ids of user which can access the bot e.g 123456789",
             "value": "",
-            "required": false
+            "required": true
         },
         "THUMBNAIL": {
             "description": "Put Link of any picture.",
