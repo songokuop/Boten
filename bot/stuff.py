@@ -21,8 +21,8 @@ async def start(event):
         f"**Send me the video which you want to compress.**\n**Uptime: {str(datetime.now() - START_TIME).split('.')[0]}**",
         buttons=[
             [Button.inline("HELP", data="help")],
-            [Button.url('Update', url='t.me/Roofiverse')],
-            [Button.url('Support', url='t.me/Kdramaland_Official')]
+            [Button.url('Update', url='t.me/Movies_Zone_Media')],
+            [Button.url('Support', url='t.me/AnimeDiversity')]
         ],
     )
 
